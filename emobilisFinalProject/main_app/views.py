@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.contrib import messages
+from django.shortcuts import render, redirect
 
 
 # Create your views here.
@@ -15,7 +16,7 @@ def confirmation(request):
 
 
 def appointment(request):
-    return render(request, 'appoinment.html')
+    return render(request, 'appointment.html')
 
 
 def contact(request):

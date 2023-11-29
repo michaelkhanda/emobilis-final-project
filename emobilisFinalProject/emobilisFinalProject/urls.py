@@ -30,5 +30,6 @@ urlpatterns = [
     path("doctor/", views.doctor, name='doctor'),
     path("doctor_single/", views.doctor_single, name='doctor_single'),
     path("service/", views.service, name='service'),
+
     path("admin/", admin.site.urls),
 ]
